@@ -4,40 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Themed background bitmap: covers all states (solid, gradient, border) -->
+    <!-- Themed background bitmap -->
     <ImageView
         android:id="@+id/image_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY" />
 
-    <!-- State A / C: countdown or expired -->
+    <!-- State A / C: countdown or expired
+         Text order (top→bottom): number (biggest) · reason (medium) · "days left" (smallest)
+         Sizes are overridden programmatically per widget size; values here are fallback defaults. -->
     <LinearLayout
         android:id="@+id/layout_countdown"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="8dp"
+        android:padding="6dp"
         android:visibility="visible">
 
+        <!-- Number of days — biggest -->
         <TextView
             android:id="@+id/text_days"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
             android:textColor="@color/widget_text_primary"
-            android:textSize="36sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/text_days_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/days_left"
-            android:textColor="@color/widget_text_secondary"
-            android:textSize="10sp" />
-
+        <!-- Event / reason — medium -->
         <TextView
             android:id="@+id/text_event_label"
             android:layout_width="match_parent"
@@ -45,9 +42,20 @@
             android:layout_marginTop="2dp"
             android:ellipsize="end"
             android:gravity="center"
+            android:includeFontPadding="false"
             android:maxLines="1"
             android:textColor="@color/widget_text_secondary"
             android:textSize="9sp" />
+
+        <!-- "days left" / "ימים נותרו" — smallest -->
+        <TextView
+            android:id="@+id/text_days_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/days_left"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="7sp" />
 
     </LinearLayout>
 
@@ -57,8 +65,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/celebration_description"
+        android:padding="8dp"
         android:scaleType="centerInside"
-        android:padding="12dp"
         android:src="@drawable/party_celebration"
         android:visibility="gone" />
 

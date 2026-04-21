@@ -4,6 +4,7 @@ import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.Intent
+import android.os.Bundle
 import com.amitayk.countdownwidget.data.WidgetPreferences
 import com.amitayk.countdownwidget.worker.WorkScheduler
 
@@ -28,6 +29,17 @@ class CountdownWidgetProvider : AppWidgetProvider() {
 
     override fun onDisabled(context: Context) {
         WorkScheduler.cancel(context)
+    }
+
+    /** Called when the user resizes the widget — re-render with the new text scale. */
+    override fun onAppWidgetOptionsChanged(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetId: Int,
+        newOptions: Bundle,
+    ) {
+        super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
+        CountdownWidgetUpdater.updateWidget(context, appWidgetId)
     }
 
     override fun onReceive(context: Context, intent: Intent) {

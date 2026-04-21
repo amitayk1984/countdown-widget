@@ -9,6 +9,9 @@ import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
+import android.os.Build
+import android.util.SizeF
+import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
 import com.amitayk.countdownwidget.R
@@ -21,34 +24,74 @@ import java.time.temporal.ChronoUnit
 
 object CountdownWidgetUpdater {
 
+    /**
+     * Two text-size profiles:
+     *  SMALL → 1×1 widget  (≈ 57 dp)
+     *  LARGE → 3×3 widget  (≈ 177 dp)
+     *
+     * Sizes (sp) — hierarchy: days (biggest) > reason (medium) > label (smallest)
+     */
+    private enum class TextScale(
+        val daysSp: Float,
+        val reasonSp: Float,
+        val labelSp: Float,
+        val paddingDp: Int,
+    ) {
+        SMALL(daysSp = 22f, reasonSp = 9f,  labelSp = 7f,  paddingDp = 6),
+        LARGE(daysSp = 68f, reasonSp = 18f, labelSp = 13f, paddingDp = 16),
+    }
+
+    // ── Public API ────────────────────────────────────────────────────────────
+
     fun updateWidget(context: Context, appWidgetId: Int) {
-        val prefs = WidgetPreferences(context)
+        val prefs   = WidgetPreferences(context)
         val manager = AppWidgetManager.getInstance(context)
         val isoDate = prefs.getTargetDate(appWidgetId) ?: return
 
-        val theme = WidgetThemes.find(prefs.getTheme(appWidgetId))
-        val targetDate = LocalDate.parse(isoDate)
-        val today = LocalDate.now()
-        val daysLeft = ChronoUnit.DAYS.between(today, targetDate)
+        val theme   = WidgetThemes.find(prefs.getTheme(appWidgetId))
+        val label   = prefs.getLabel(appWidgetId)
+        val daysLeft = ChronoUnit.DAYS.between(LocalDate.now(), LocalDate.parse(isoDate))
 
-        val views = when {
-            daysLeft == 0L -> buildCelebrationViews(context, appWidgetId, theme)
-            daysLeft < 0L  -> buildExpiredViews(context, appWidgetId, -daysLeft, theme)
-            else           -> buildCountdownViews(context, appWidgetId, daysLeft, prefs.getLabel(appWidgetId), theme)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            // API 31+: supply both sizes; Android picks the right one automatically
+            // as the user resizes the widget — no manual re-render needed.
+            val views = RemoteViews(
+                mapOf(
+                    SizeF(57f,  57f)  to buildStateViews(context, appWidgetId, daysLeft, label, theme, TextScale.SMALL),
+                    SizeF(177f, 177f) to buildStateViews(context, appWidgetId, daysLeft, label, theme, TextScale.LARGE),
+                )
+            )
+            manager.updateAppWidget(appWidgetId, views)
+        } else {
+            // API 30: read current size from widget options and pick manually
+            val scale = scaleFromOptions(manager, appWidgetId)
+            manager.updateAppWidget(
+                appWidgetId,
+                buildStateViews(context, appWidgetId, daysLeft, label, theme, scale),
+            )
         }
-
-        manager.updateAppWidget(appWidgetId, views)
     }
 
     fun updateAllWidgets(context: Context) {
         val manager = AppWidgetManager.getInstance(context)
-        val ids = manager.getAppWidgetIds(
-            ComponentName(context, CountdownWidgetProvider::class.java)
-        )
-        ids.forEach { updateWidget(context, it) }
+        manager.getAppWidgetIds(ComponentName(context, CountdownWidgetProvider::class.java))
+            .forEach { updateWidget(context, it) }
     }
 
-    // ── View builders ─────────────────────────────────────────────────────────
+    // ── State builders ────────────────────────────────────────────────────────
+
+    private fun buildStateViews(
+        context: Context,
+        appWidgetId: Int,
+        daysLeft: Long,
+        label: String?,
+        theme: WidgetTheme,
+        scale: TextScale,
+    ): RemoteViews = when {
+        daysLeft == 0L -> buildCelebrationViews(context, appWidgetId, theme, scale)
+        daysLeft < 0L  -> buildExpiredViews(context, appWidgetId, -daysLeft, label, theme, scale)
+        else           -> buildCountdownViews(context, appWidgetId, daysLeft, label, theme, scale)
+    }
 
     private fun buildCountdownViews(
         context: Context,
@@ -56,104 +99,115 @@ object CountdownWidgetUpdater {
         daysLeft: Long,
         label: String?,
         theme: WidgetTheme,
+        scale: TextScale,
     ): RemoteViews = base(context, appWidgetId).apply {
         val hebrew = isHebrew(label)
         setViewVisibility(R.id.layout_countdown, View.VISIBLE)
         setViewVisibility(R.id.image_celebration, View.GONE)
         setTextViewText(R.id.text_days, daysLeft.toString())
+        setTextViewText(R.id.text_event_label, label.orEmpty())
         setTextViewText(
             R.id.text_days_label,
             context.getString(if (hebrew) R.string.days_left_he else R.string.days_left),
         )
-        setTextViewText(R.id.text_event_label, label.orEmpty())
         applyTheme(this, theme)
+        applyTextSizes(context, this, scale)
     }
 
     private fun buildCelebrationViews(
         context: Context,
         appWidgetId: Int,
         theme: WidgetTheme,
+        scale: TextScale,
     ): RemoteViews = base(context, appWidgetId).apply {
         setViewVisibility(R.id.layout_countdown, View.GONE)
         setViewVisibility(R.id.image_celebration, View.VISIBLE)
         applyTheme(this, theme)
+        applyTextSizes(context, this, scale)
     }
 
     private fun buildExpiredViews(
         context: Context,
         appWidgetId: Int,
         daysAgo: Long,
+        label: String?,
         theme: WidgetTheme,
+        scale: TextScale,
     ): RemoteViews = base(context, appWidgetId).apply {
+        val hebrew = isHebrew(label)
         setViewVisibility(R.id.layout_countdown, View.VISIBLE)
         setViewVisibility(R.id.image_celebration, View.GONE)
         setTextViewText(R.id.text_days, daysAgo.toString())
-        setTextViewText(R.id.text_days_label, context.getString(R.string.days_ago))
-        setTextViewText(R.id.text_event_label, "")
+        setTextViewText(R.id.text_event_label, label.orEmpty())
+        setTextViewText(
+            R.id.text_days_label,
+            context.getString(if (hebrew) R.string.days_ago_he else R.string.days_ago),
+        )
         applyTheme(this, theme)
+        applyTextSizes(context, this, scale)
     }
 
-    /** Returns true if [text] contains any Hebrew Unicode character. */
-    private fun isHebrew(text: String?): Boolean =
-        text?.any { it.code in 0x0590..0x05FF || it.code in 0xFB1D..0xFB4F } == true
+    // ── Text sizing ───────────────────────────────────────────────────────────
 
-    // ── Theme application ─────────────────────────────────────────────────────
+    private fun applyTextSizes(context: Context, views: RemoteViews, scale: TextScale) {
+        views.setTextViewTextSize(R.id.text_days,        TypedValue.COMPLEX_UNIT_SP, scale.daysSp)
+        views.setTextViewTextSize(R.id.text_event_label, TypedValue.COMPLEX_UNIT_SP, scale.reasonSp)
+        views.setTextViewTextSize(R.id.text_days_label,  TypedValue.COMPLEX_UNIT_SP, scale.labelSp)
+        val px = dpToPx(context, scale.paddingDp)
+        views.setViewPadding(R.id.layout_countdown, px, px, px, px)
+    }
 
-    /**
-     * Applies theme colors to the RemoteViews:
-     *  - image_bg  → programmatic GradientDrawable bitmap (handles solid, gradient, border, corners)
-     *  - text views → primary / secondary colour
-     */
+    private fun scaleFromOptions(manager: AppWidgetManager, appWidgetId: Int): TextScale {
+        val opts     = manager.getAppWidgetOptions(appWidgetId)
+        val minWidth = opts.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, 57)
+        return if (minWidth >= 150) TextScale.LARGE else TextScale.SMALL
+    }
+
+    private fun dpToPx(context: Context, dp: Int): Int =
+        (dp * context.resources.displayMetrics.density + 0.5f).toInt()
+
+    // ── Theme ─────────────────────────────────────────────────────────────────
+
     private fun applyTheme(views: RemoteViews, theme: WidgetTheme) {
         views.setImageViewBitmap(R.id.image_bg, buildBackgroundBitmap(theme))
-        views.setTextColor(R.id.text_days, Color.parseColor(theme.primaryTextColorHex))
-        views.setTextColor(R.id.text_days_label, Color.parseColor(theme.secondaryTextColorHex))
+        views.setTextColor(R.id.text_days,        Color.parseColor(theme.primaryTextColorHex))
         views.setTextColor(R.id.text_event_label, Color.parseColor(theme.secondaryTextColorHex))
+        views.setTextColor(R.id.text_days_label,  Color.parseColor(theme.secondaryTextColorHex))
     }
 
-    /**
-     * Renders a [BITMAP_SIZE]×[BITMAP_SIZE] bitmap with the theme's background.
-     * Using fitXY on the ImageView means corners may appear slightly elliptical on
-     * non-square widgets — acceptable at the design's 16–28 dp radii.
-     */
     private fun buildBackgroundBitmap(theme: WidgetTheme): Bitmap {
-        val size = BITMAP_SIZE
-        val bitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
-        val canvas = Canvas(bitmap)
-
-        // Corner radius scaled to bitmap dimensions (assuming ~180 dp minimum widget width)
+        val size     = BITMAP_SIZE
+        val bitmap   = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
+        val canvas   = Canvas(bitmap)
         val cornerPx = theme.cornerRadiusDp / 180f * size
 
-        val drawable = GradientDrawable()
-        drawable.shape = GradientDrawable.RECTANGLE
-        drawable.cornerRadius = cornerPx
-
-        if (theme.backgroundIsGradient
-            && theme.gradientStartHex != null
-            && theme.gradientEndHex != null
-        ) {
-            drawable.orientation = GradientDrawable.Orientation.TOP_BOTTOM
-            drawable.colors = intArrayOf(
-                Color.parseColor(theme.gradientStartHex),
-                Color.parseColor(theme.gradientEndHex),
-            )
-        } else {
-            drawable.setColor(Color.parseColor(theme.backgroundColorHex))
+        val drawable = GradientDrawable().apply {
+            shape       = GradientDrawable.RECTANGLE
+            cornerRadius = cornerPx
+            if (theme.backgroundIsGradient
+                && theme.gradientStartHex != null
+                && theme.gradientEndHex != null
+            ) {
+                orientation = GradientDrawable.Orientation.TOP_BOTTOM
+                colors = intArrayOf(
+                    Color.parseColor(theme.gradientStartHex),
+                    Color.parseColor(theme.gradientEndHex),
+                )
+            } else {
+                setColor(Color.parseColor(theme.backgroundColorHex))
+            }
+            theme.borderColorHex?.let { hex ->
+                val strokePx = (2f / 180f * size).coerceAtLeast(1f).toInt()
+                setStroke(strokePx, Color.parseColor(hex))
+            }
+            setBounds(0, 0, size, size)
         }
-
-        theme.borderColorHex?.let { hex ->
-            val strokePx = (2f / 180f * size).coerceAtLeast(1f).toInt()
-            drawable.setStroke(strokePx, Color.parseColor(hex))
-        }
-
-        drawable.setBounds(0, 0, size, size)
         drawable.draw(canvas)
         return bitmap
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
-    /** Base RemoteViews wired with the tap-to-configure pending intent. */
     private fun base(context: Context, appWidgetId: Int): RemoteViews =
         RemoteViews(context.packageName, R.layout.widget_countdown).also { views ->
             views.setOnClickPendingIntent(R.id.widget_root, configPendingIntent(context, appWidgetId))
@@ -165,12 +219,13 @@ object CountdownWidgetUpdater {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
         }
         return PendingIntent.getActivity(
-            context,
-            appWidgetId, // unique request code per widget instance
-            intent,
+            context, appWidgetId, intent,
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
         )
     }
 
-    private const val BITMAP_SIZE = 120 // px — ~57 KB ARGB_8888, well within binder limits
+    private fun isHebrew(text: String?): Boolean =
+        text?.any { it.code in 0x0590..0x05FF || it.code in 0xFB1D..0xFB4F } == true
+
+    private const val BITMAP_SIZE = 120
 }
