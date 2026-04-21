@@ -12,7 +12,7 @@
         android:scaleType="fitXY" />
 
     <!-- State A / C: countdown or expired
-         Text order (top→bottom): number (biggest) · reason (medium) · "days left" (smallest)
+         Text order (top→bottom): number (biggest) · "days left" (smallest) · reason (medium)
          Sizes are overridden programmatically per widget size; values here are fallback defaults. -->
     <LinearLayout
         android:id="@+id/layout_countdown"
@@ -34,6 +34,16 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
+        <!-- "days left" / "ימים נותרו" — smallest -->
+        <TextView
+            android:id="@+id/text_days_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/days_left"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="7sp" />
+
         <!-- Event / reason — medium -->
         <TextView
             android:id="@+id/text_event_label"
@@ -46,16 +56,6 @@
             android:maxLines="1"
             android:textColor="@color/widget_text_secondary"
             android:textSize="9sp" />
-
-        <!-- "days left" / "ימים נותרו" — smallest -->
-        <TextView
-            android:id="@+id/text_days_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:includeFontPadding="false"
-            android:text="@string/days_left"
-            android:textColor="@color/widget_text_secondary"
-            android:textSize="7sp" />
 
     </LinearLayout>
 
