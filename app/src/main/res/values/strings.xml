@@ -4,6 +4,8 @@
     <string name="widget_description">Counts down days to your special date</string>
     <string name="days_left">days left</string>
     <string name="days_ago">days ago</string>
+    <string name="days_left_he">ימים נותרו</string>
+    <string name="days_ago_he">ימים עברו</string>
     <string name="celebration_description">Celebration — the day has arrived!</string>
     <string name="config_title">Set Countdown</string>
     <string name="config_label_hint">Event name (optional)</string>

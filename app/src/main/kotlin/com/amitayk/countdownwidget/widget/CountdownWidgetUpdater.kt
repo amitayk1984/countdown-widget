@@ -57,10 +57,14 @@ object CountdownWidgetUpdater {
         label: String?,
         theme: WidgetTheme,
     ): RemoteViews = base(context, appWidgetId).apply {
+        val hebrew = isHebrew(label)
         setViewVisibility(R.id.layout_countdown, View.VISIBLE)
         setViewVisibility(R.id.image_celebration, View.GONE)
         setTextViewText(R.id.text_days, daysLeft.toString())
-        setTextViewText(R.id.text_days_label, context.getString(R.string.days_left))
+        setTextViewText(
+            R.id.text_days_label,
+            context.getString(if (hebrew) R.string.days_left_he else R.string.days_left),
+        )
         setTextViewText(R.id.text_event_label, label.orEmpty())
         applyTheme(this, theme)
     }
@@ -88,6 +92,10 @@ object CountdownWidgetUpdater {
         setTextViewText(R.id.text_event_label, "")
         applyTheme(this, theme)
     }
+
+    /** Returns true if [text] contains any Hebrew Unicode character. */
+    private fun isHebrew(text: String?): Boolean =
+        text?.any { it.code in 0x0590..0x05FF || it.code in 0xFB1D..0xFB4F } == true
 
     // ── Theme application ─────────────────────────────────────────────────────
 

@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="12dp"
+        android:padding="8dp"
         android:visibility="visible">
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:textColor="@color/widget_text_primary"
-            android:textSize="52sp"
+            android:textSize="36sp"
             android:textStyle="bold" />
 
         <TextView
@@ -36,18 +36,18 @@
             android:layout_height="wrap_content"
             android:text="@string/days_left"
             android:textColor="@color/widget_text_secondary"
-            android:textSize="14sp" />
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/text_event_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="2dp"
             android:ellipsize="end"
             android:gravity="center"
             android:maxLines="1"
             android:textColor="@color/widget_text_secondary"
-            android:textSize="12sp" />
+            android:textSize="9sp" />
 
     </LinearLayout>
 
