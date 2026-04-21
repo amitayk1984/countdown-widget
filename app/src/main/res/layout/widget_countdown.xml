@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/widget_background"
-    android:padding="12dp">
+    android:layout_height="match_parent">
 
+    <!-- Themed background bitmap: covers all states (solid, gradient, border) -->
+    <ImageView
+        android:id="@+id/image_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <!-- State A / C: countdown or expired -->
     <LinearLayout
         android:id="@+id/layout_countdown"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
+        android:padding="12dp"
         android:visibility="visible">
 
         <TextView
@@ -23,6 +31,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/text_days_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/days_left"
@@ -42,12 +51,14 @@
 
     </LinearLayout>
 
+    <!-- State B: celebration -->
     <ImageView
         android:id="@+id/image_celebration"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/celebration_description"
         android:scaleType="centerInside"
+        android:padding="12dp"
         android:src="@drawable/party_celebration"
         android:visibility="gone" />
 

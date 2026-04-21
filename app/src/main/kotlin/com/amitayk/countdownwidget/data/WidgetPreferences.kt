@@ -21,10 +21,18 @@ class WidgetPreferences(context: Context) {
     fun getLabel(appWidgetId: Int): String? =
         prefs.getString("label_$appWidgetId", null)
 
+    fun setTheme(appWidgetId: Int, themeId: String) {
+        prefs.edit().putString("theme_$appWidgetId", themeId).apply()
+    }
+
+    fun getTheme(appWidgetId: Int): String =
+        prefs.getString("theme_$appWidgetId", WidgetThemes.default.id) ?: WidgetThemes.default.id
+
     fun deleteWidget(appWidgetId: Int) {
         prefs.edit()
             .remove("target_date_$appWidgetId")
             .remove("label_$appWidgetId")
+            .remove("theme_$appWidgetId")
             .apply()
     }
 }
