@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countdown Widget</string>
+    <string name="widget_description">Counts down days to your special date</string>
+    <string name="days_left">days left</string>
+    <string name="days_ago">days ago</string>
+    <string name="celebration_description">Celebration — the day has arrived!</string>
+    <string name="config_title">Set Countdown</string>
+    <string name="config_label_hint">Event name (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
