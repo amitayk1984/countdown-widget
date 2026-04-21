@@ -55,7 +55,7 @@
             android:includeFontPadding="false"
             android:maxLines="1"
             android:textColor="@color/widget_text_secondary"
-            android:textSize="9sp" />
+            android:textSize="12sp" />
 
     </LinearLayout>
 

@@ -37,8 +37,8 @@ object CountdownWidgetUpdater {
         val labelSp: Float,
         val paddingDp: Int,
     ) {
-        SMALL(daysSp = 22f, reasonSp = 9f,  labelSp = 7f,  paddingDp = 6),
-        LARGE(daysSp = 68f, reasonSp = 18f, labelSp = 13f, paddingDp = 16),
+        SMALL(daysSp = 22f, reasonSp = 12f, labelSp = 7f,  paddingDp = 6),
+        LARGE(daysSp = 68f, reasonSp = 22f, labelSp = 13f, paddingDp = 16),
     }
 
     // ── Public API ────────────────────────────────────────────────────────────
