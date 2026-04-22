@@ -1,0 +1,650 @@
+-- Merging decision tree log ---
+provider#androidx.startup.InitializationProvider
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:47:9-56:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:51:13-31
+	android:authorities
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:49:13-68
+	android:exported
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:48:13-67
+manifest
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/618e4bfc866881b646b3733ce2bb634d/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/da52a7d5ea2310248d7727d0e49db1e9/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cb14b381bfb75a6fb4cf387eac457773/transformed/hilt-work-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/03bdd6d03d146740592334b460984a6a/transformed/hilt-android-2.51/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/amitaykatz/.gradle/caches/transforms-3/bf6c5c67c4fff7f367f676249f6e497f/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/3c5d3599419bea0e6c6921d3c1c57924/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ef74a219f95e4eeb9d3b09c03c7a1122/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/5ff0a2bcbdabbaa3fc918139489066cd/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/f887bca6f0be7caa473c685eb3300b3a/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/48679b5f65a18dbb82917da1d90379c3/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd6126271227745d86538124519a0356/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/3f16700b86356442de86966a66dc898d/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/b591e60ae4e27ddab642f2d55a9502a9/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/da3579de6b9f7e8325fde32003865eeb/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/6bdd9d387e28b80daf13e94a63b2ebdc/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e3b81d2d4f04313a06c5fad54967fed4/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ccc37098ad89a736e037c5b03005c79d/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/7da080fe9325e93489067ab58f2bb061/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd698aa580d0f58b881c3dc7c1df0cc9/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/636e5e90d3be0e45c91f73eaa91de563/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e7bab9cdc97c7e81cfd303dcd14c0cc0/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/766a09063cb3e2373e1d5f0ca114905f/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/460eb8831d0fa0704a2bd7dfdebfe77f/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/4b1a0e1bdf27d5d4a1bbb867457aa04f/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/41734acee937561858e4ec784aa10edd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/4c09e081c0ad2ac7a8d14a1aedb09176/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/fc9c6829cd7ed570b20c612725d1696f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/121b50655c6b8d11f991cdd02fe8f91b/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/c01bf0e37f13cebcf0b43e7c51f29ccc/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d86ed05326b27f78ce61d2a2d792d7ef/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/af8e692b0ef427572ca264b2942fb3bb/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d902f7d249a30f4d81b98fd0630c54c3/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/73d2844d4eea59aba31959ddadc440c3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/bb5eceec87b1e956a60d372c0f8b6a80/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/4306a03d779775bc0607a2667042b220/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/798332bb777785318ccb211ebc7f273b/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/82fc46f2866af97199dccd2ecbf0ea09/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/f6677d8f97041e6dac30d428b6b5e680/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/60d9b114843eeac5884f3b9afc83bcc8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/f49be73bb4cc656d8597a8e84ef6ce99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/023566118c22f3fb6855dcca3a8c7af0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/ed584af2bf5db9cb005132222d068a1b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/6cf01aec73ac252b374605ec0f3f93e1/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f12ef68c89e652dbe53f08c376270a0f/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/aad5d9d1a995e9ba29c33c269988ea2b/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/ca372a29f1af3785bb08475533ee6fe6/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8ef8fd20b3328e9493e4779c542dec8d/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ac647cf6b752c89835432f7beda3d63a/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/90366f04b01b6a1c61303d48087f0165/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/ccfae4cfe99af128801feb37b9f6905e/transformed/room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/amitaykatz/.gradle/caches/transforms-3/b6ea4d5a46a5a51ba153d058a85c459b/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/12175af45acb9a97b9f17a936541a0fa/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/c164222ad7699d39aa6aab3fd3cb547e/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/cce72038c0a29741e3bb6c7a52311dfc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/e744f5afe580992475b5bc6a653d0317/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cbd409dccbcf7bfbafcc2ca33ec06b23/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f1e1a7edf5ccaac06320479155230d02/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/9fa0803b42ae6fcc7814260a33059b6b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/2b04ed53d678768e03ad791bfe57140b/transformed/dagger-lint-aar-2.51/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:5:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:6:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:6:22-65
+application
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:8:5-58:19
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:8:5-58:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/cce72038c0a29741e3bb6c7a52311dfc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/cce72038c0a29741e3bb6c7a52311dfc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:14:9-53
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:9:9-37
+receiver#com.amitayk.countdownwidget.widget.CountdownWidgetProvider
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:16:9-30:20
+	android:exported
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:17:13-59
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.DATE_CHANGED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:19:13-26:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:20:17-84
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:20:25-81
+action#android.intent.action.DATE_CHANGED
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:21:25-74
+action#android.intent.action.TIME_SET
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:22:17-73
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:22:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:23:17-81
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:23:25-78
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:24:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:25:17-84
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:25:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:27:13-29:65
+	android:resource
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:29:17-62
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:28:17-58
+activity#com.amitayk.countdownwidget.config.WidgetConfigActivity
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:32:9-39:20
+	android:exported
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:34:13-36
+	android:theme
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:35:13-57
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:33:13-56
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:36:13-38:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:37:25-84
+receiver#com.amitayk.countdownwidget.worker.MidnightAlarmReceiver
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:43:13-57
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:52:13-55:39
+REJECTED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+	tools:node
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:55:17-36
+	android:value
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:54:17-49
+	android:name
+		ADDED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml:53:17-68
+uses-sdk
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/618e4bfc866881b646b3733ce2bb634d/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/618e4bfc866881b646b3733ce2bb634d/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/da52a7d5ea2310248d7727d0e49db1e9/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/da52a7d5ea2310248d7727d0e49db1e9/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cb14b381bfb75a6fb4cf387eac457773/transformed/hilt-work-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cb14b381bfb75a6fb4cf387eac457773/transformed/hilt-work-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/03bdd6d03d146740592334b460984a6a/transformed/hilt-android-2.51/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/03bdd6d03d146740592334b460984a6a/transformed/hilt-android-2.51/AndroidManifest.xml:18:3-42
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/amitaykatz/.gradle/caches/transforms-3/bf6c5c67c4fff7f367f676249f6e497f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/amitaykatz/.gradle/caches/transforms-3/bf6c5c67c4fff7f367f676249f6e497f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/3c5d3599419bea0e6c6921d3c1c57924/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/3c5d3599419bea0e6c6921d3c1c57924/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ef74a219f95e4eeb9d3b09c03c7a1122/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ef74a219f95e4eeb9d3b09c03c7a1122/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/5ff0a2bcbdabbaa3fc918139489066cd/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/5ff0a2bcbdabbaa3fc918139489066cd/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/f887bca6f0be7caa473c685eb3300b3a/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/f887bca6f0be7caa473c685eb3300b3a/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/48679b5f65a18dbb82917da1d90379c3/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/48679b5f65a18dbb82917da1d90379c3/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd6126271227745d86538124519a0356/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd6126271227745d86538124519a0356/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/3f16700b86356442de86966a66dc898d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/3f16700b86356442de86966a66dc898d/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/b591e60ae4e27ddab642f2d55a9502a9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/b591e60ae4e27ddab642f2d55a9502a9/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/da3579de6b9f7e8325fde32003865eeb/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/da3579de6b9f7e8325fde32003865eeb/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/6bdd9d387e28b80daf13e94a63b2ebdc/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/6bdd9d387e28b80daf13e94a63b2ebdc/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e3b81d2d4f04313a06c5fad54967fed4/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e3b81d2d4f04313a06c5fad54967fed4/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ccc37098ad89a736e037c5b03005c79d/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ccc37098ad89a736e037c5b03005c79d/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/7da080fe9325e93489067ab58f2bb061/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/7da080fe9325e93489067ab58f2bb061/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd698aa580d0f58b881c3dc7c1df0cc9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/fd698aa580d0f58b881c3dc7c1df0cc9/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/636e5e90d3be0e45c91f73eaa91de563/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/636e5e90d3be0e45c91f73eaa91de563/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e7bab9cdc97c7e81cfd303dcd14c0cc0/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/e7bab9cdc97c7e81cfd303dcd14c0cc0/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/766a09063cb3e2373e1d5f0ca114905f/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/766a09063cb3e2373e1d5f0ca114905f/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/460eb8831d0fa0704a2bd7dfdebfe77f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/460eb8831d0fa0704a2bd7dfdebfe77f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/4b1a0e1bdf27d5d4a1bbb867457aa04f/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/amitaykatz/.gradle/caches/transforms-3/4b1a0e1bdf27d5d4a1bbb867457aa04f/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/41734acee937561858e4ec784aa10edd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/41734acee937561858e4ec784aa10edd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/4c09e081c0ad2ac7a8d14a1aedb09176/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/amitaykatz/.gradle/caches/transforms-3/4c09e081c0ad2ac7a8d14a1aedb09176/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/fc9c6829cd7ed570b20c612725d1696f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/fc9c6829cd7ed570b20c612725d1696f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/121b50655c6b8d11f991cdd02fe8f91b/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/121b50655c6b8d11f991cdd02fe8f91b/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/c01bf0e37f13cebcf0b43e7c51f29ccc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/c01bf0e37f13cebcf0b43e7c51f29ccc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d86ed05326b27f78ce61d2a2d792d7ef/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d86ed05326b27f78ce61d2a2d792d7ef/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/af8e692b0ef427572ca264b2942fb3bb/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/af8e692b0ef427572ca264b2942fb3bb/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d902f7d249a30f4d81b98fd0630c54c3/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/d902f7d249a30f4d81b98fd0630c54c3/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/73d2844d4eea59aba31959ddadc440c3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/73d2844d4eea59aba31959ddadc440c3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/bb5eceec87b1e956a60d372c0f8b6a80/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/bb5eceec87b1e956a60d372c0f8b6a80/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/4306a03d779775bc0607a2667042b220/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/4306a03d779775bc0607a2667042b220/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/798332bb777785318ccb211ebc7f273b/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/798332bb777785318ccb211ebc7f273b/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/82fc46f2866af97199dccd2ecbf0ea09/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/82fc46f2866af97199dccd2ecbf0ea09/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/f6677d8f97041e6dac30d428b6b5e680/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/f6677d8f97041e6dac30d428b6b5e680/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/60d9b114843eeac5884f3b9afc83bcc8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/60d9b114843eeac5884f3b9afc83bcc8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/f49be73bb4cc656d8597a8e84ef6ce99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/f49be73bb4cc656d8597a8e84ef6ce99/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/023566118c22f3fb6855dcca3a8c7af0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/amitaykatz/.gradle/caches/transforms-3/023566118c22f3fb6855dcca3a8c7af0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/ed584af2bf5db9cb005132222d068a1b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/ed584af2bf5db9cb005132222d068a1b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/6cf01aec73ac252b374605ec0f3f93e1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/6cf01aec73ac252b374605ec0f3f93e1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f12ef68c89e652dbe53f08c376270a0f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f12ef68c89e652dbe53f08c376270a0f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/aad5d9d1a995e9ba29c33c269988ea2b/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/aad5d9d1a995e9ba29c33c269988ea2b/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/ca372a29f1af3785bb08475533ee6fe6/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/ca372a29f1af3785bb08475533ee6fe6/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8ef8fd20b3328e9493e4779c542dec8d/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8ef8fd20b3328e9493e4779c542dec8d/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ac647cf6b752c89835432f7beda3d63a/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/ac647cf6b752c89835432f7beda3d63a/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/90366f04b01b6a1c61303d48087f0165/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/90366f04b01b6a1c61303d48087f0165/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/ccfae4cfe99af128801feb37b9f6905e/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/ccfae4cfe99af128801feb37b9f6905e/transformed/room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/amitaykatz/.gradle/caches/transforms-3/b6ea4d5a46a5a51ba153d058a85c459b/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/amitaykatz/.gradle/caches/transforms-3/b6ea4d5a46a5a51ba153d058a85c459b/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/12175af45acb9a97b9f17a936541a0fa/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/12175af45acb9a97b9f17a936541a0fa/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/c164222ad7699d39aa6aab3fd3cb547e/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/c164222ad7699d39aa6aab3fd3cb547e/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/cce72038c0a29741e3bb6c7a52311dfc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/cce72038c0a29741e3bb6c7a52311dfc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/e744f5afe580992475b5bc6a653d0317/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/e744f5afe580992475b5bc6a653d0317/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cbd409dccbcf7bfbafcc2ca33ec06b23/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/amitaykatz/.gradle/caches/transforms-3/cbd409dccbcf7bfbafcc2ca33ec06b23/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f1e1a7edf5ccaac06320479155230d02/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/f1e1a7edf5ccaac06320479155230d02/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/9fa0803b42ae6fcc7814260a33059b6b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/amitaykatz/.gradle/caches/transforms-3/9fa0803b42ae6fcc7814260a33059b6b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/2b04ed53d678768e03ad791bfe57140b/transformed/dagger-lint-aar-2.51/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51] /Users/amitaykatz/.gradle/caches/transforms-3/2b04ed53d678768e03ad791bfe57140b/transformed/dagger-lint-aar-2.51/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/amitaykatz/Projects/Countdown Widget/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:22-74
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.amitayk.countdownwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.amitayk.countdownwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

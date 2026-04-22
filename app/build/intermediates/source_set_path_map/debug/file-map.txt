@@ -1,0 +1,61 @@
+com.amitayk.countdownwidget.app-sqlite-framework-2.3.0-0 /Users/amitaykatz/.gradle/caches/transforms-3/12175af45acb9a97b9f17a936541a0fa/transformed/sqlite-framework-2.3.0/res
+com.amitayk.countdownwidget.app-work-runtime-ktx-2.9.0-1 /Users/amitaykatz/.gradle/caches/transforms-3/121b50655c6b8d11f991cdd02fe8f91b/transformed/work-runtime-ktx-2.9.0/res
+com.amitayk.countdownwidget.app-startup-runtime-1.1.1-2 /Users/amitaykatz/.gradle/caches/transforms-3/2faf658896743df4db90e314cea13cdc/transformed/startup-runtime-1.1.1/res
+com.amitayk.countdownwidget.app-material3-release-3 /Users/amitaykatz/.gradle/caches/transforms-3/3c5d3599419bea0e6c6921d3c1c57924/transformed/material3-release/res
+com.amitayk.countdownwidget.app-foundation-layout-release-4 /Users/amitaykatz/.gradle/caches/transforms-3/3f16700b86356442de86966a66dc898d/transformed/foundation-layout-release/res
+com.amitayk.countdownwidget.app-savedstate-ktx-1.2.1-5 /Users/amitaykatz/.gradle/caches/transforms-3/41734acee937561858e4ec784aa10edd/transformed/savedstate-ktx-1.2.1/res
+com.amitayk.countdownwidget.app-lifecycle-viewmodel-savedstate-2.7.0-6 /Users/amitaykatz/.gradle/caches/transforms-3/4306a03d779775bc0607a2667042b220/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.amitayk.countdownwidget.app-activity-1.8.2-7 /Users/amitaykatz/.gradle/caches/transforms-3/460eb8831d0fa0704a2bd7dfdebfe77f/transformed/activity-1.8.2/res
+com.amitayk.countdownwidget.app-animation-core-release-8 /Users/amitaykatz/.gradle/caches/transforms-3/48679b5f65a18dbb82917da1d90379c3/transformed/animation-core-release/res
+com.amitayk.countdownwidget.app-activity-compose-1.8.2-9 /Users/amitaykatz/.gradle/caches/transforms-3/4b1a0e1bdf27d5d4a1bbb867457aa04f/transformed/activity-compose-1.8.2/res
+com.amitayk.countdownwidget.app-savedstate-1.2.1-10 /Users/amitaykatz/.gradle/caches/transforms-3/4c09e081c0ad2ac7a8d14a1aedb09176/transformed/savedstate-1.2.1/res
+com.amitayk.countdownwidget.app-material-icons-core-release-11 /Users/amitaykatz/.gradle/caches/transforms-3/5ff0a2bcbdabbaa3fc918139489066cd/transformed/material-icons-core-release/res
+com.amitayk.countdownwidget.app-appcompat-resources-1.7.0-12 /Users/amitaykatz/.gradle/caches/transforms-3/618e4bfc866881b646b3733ce2bb634d/transformed/appcompat-resources-1.7.0/res
+com.amitayk.countdownwidget.app-ui-tooling-preview-release-13 /Users/amitaykatz/.gradle/caches/transforms-3/636e5e90d3be0e45c91f73eaa91de563/transformed/ui-tooling-preview-release/res
+com.amitayk.countdownwidget.app-ui-unit-release-14 /Users/amitaykatz/.gradle/caches/transforms-3/6bdd9d387e28b80daf13e94a63b2ebdc/transformed/ui-unit-release/res
+com.amitayk.countdownwidget.app-lifecycle-livedata-core-2.7.0-15 /Users/amitaykatz/.gradle/caches/transforms-3/73d2844d4eea59aba31959ddadc440c3/transformed/lifecycle-livedata-core-2.7.0/res
+com.amitayk.countdownwidget.app-core-1.13.0-16 /Users/amitaykatz/.gradle/caches/transforms-3/7617bf51d5632543c3d29c1419170467/transformed/core-1.13.0/res
+com.amitayk.countdownwidget.app-activity-ktx-1.8.2-17 /Users/amitaykatz/.gradle/caches/transforms-3/766a09063cb3e2373e1d5f0ca114905f/transformed/activity-ktx-1.8.2/res
+com.amitayk.countdownwidget.app-lifecycle-viewmodel-ktx-2.7.0-18 /Users/amitaykatz/.gradle/caches/transforms-3/798332bb777785318ccb211ebc7f273b/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.amitayk.countdownwidget.app-room-runtime-2.5.0-19 /Users/amitaykatz/.gradle/caches/transforms-3/7b71d247d159cc26c0515e3b7228a810/transformed/room-runtime-2.5.0/res
+com.amitayk.countdownwidget.app-ui-text-release-20 /Users/amitaykatz/.gradle/caches/transforms-3/7da080fe9325e93489067ab58f2bb061/transformed/ui-text-release/res
+com.amitayk.countdownwidget.app-profileinstaller-1.3.1-21 /Users/amitaykatz/.gradle/caches/transforms-3/8154b85eac32ac9fbdff9c0b691c2201/transformed/profileinstaller-1.3.1/res
+com.amitayk.countdownwidget.app-customview-poolingcontainer-1.0.0-22 /Users/amitaykatz/.gradle/caches/transforms-3/82fc46f2866af97199dccd2ecbf0ea09/transformed/customview-poolingcontainer-1.0.0/res
+com.amitayk.countdownwidget.app-emoji2-1.3.0-23 /Users/amitaykatz/.gradle/caches/transforms-3/88c80d09fb4f625e6b258d099bfce0fb/transformed/emoji2-1.3.0/res
+com.amitayk.countdownwidget.app-lifecycle-runtime-ktx-2.7.0-24 /Users/amitaykatz/.gradle/caches/transforms-3/8ef8fd20b3328e9493e4779c542dec8d/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.amitayk.countdownwidget.app-lifecycle-process-2.7.0-25 /Users/amitaykatz/.gradle/caches/transforms-3/8fe01196114d80e3d7510f96067ce277/transformed/lifecycle-process-2.7.0/res
+com.amitayk.countdownwidget.app-runtime-release-26 /Users/amitaykatz/.gradle/caches/transforms-3/90366f04b01b6a1c61303d48087f0165/transformed/runtime-release/res
+com.amitayk.countdownwidget.app-ui-tooling-release-27 /Users/amitaykatz/.gradle/caches/transforms-3/a693ab89736f03c05cbbd5aab147fc20/transformed/ui-tooling-release/res
+com.amitayk.countdownwidget.app-lifecycle-runtime-2.7.0-28 /Users/amitaykatz/.gradle/caches/transforms-3/aad5d9d1a995e9ba29c33c269988ea2b/transformed/lifecycle-runtime-2.7.0/res
+com.amitayk.countdownwidget.app-runtime-saveable-release-29 /Users/amitaykatz/.gradle/caches/transforms-3/ac647cf6b752c89835432f7beda3d63a/transformed/runtime-saveable-release/res
+com.amitayk.countdownwidget.app-lifecycle-service-2.7.0-30 /Users/amitaykatz/.gradle/caches/transforms-3/af8e692b0ef427572ca264b2942fb3bb/transformed/lifecycle-service-2.7.0/res
+com.amitayk.countdownwidget.app-foundation-release-31 /Users/amitaykatz/.gradle/caches/transforms-3/b591e60ae4e27ddab642f2d55a9502a9/transformed/foundation-release/res
+com.amitayk.countdownwidget.app-annotation-experimental-1.4.0-32 /Users/amitaykatz/.gradle/caches/transforms-3/b6ea4d5a46a5a51ba153d058a85c459b/transformed/annotation-experimental-1.4.0/res
+com.amitayk.countdownwidget.app-lifecycle-viewmodel-2.7.0-33 /Users/amitaykatz/.gradle/caches/transforms-3/bb5eceec87b1e956a60d372c0f8b6a80/transformed/lifecycle-viewmodel-2.7.0/res
+com.amitayk.countdownwidget.app-fragment-1.5.4-34 /Users/amitaykatz/.gradle/caches/transforms-3/bf6c5c67c4fff7f367f676249f6e497f/transformed/fragment-1.5.4/res
+com.amitayk.countdownwidget.app-sqlite-2.3.0-35 /Users/amitaykatz/.gradle/caches/transforms-3/c164222ad7699d39aa6aab3fd3cb547e/transformed/sqlite-2.3.0/res
+com.amitayk.countdownwidget.app-lifecycle-viewmodel-compose-2.7.0-36 /Users/amitaykatz/.gradle/caches/transforms-3/ca372a29f1af3785bb08475533ee6fe6/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.amitayk.countdownwidget.app-hilt-work-1.2.0-37 /Users/amitaykatz/.gradle/caches/transforms-3/cb14b381bfb75a6fb4cf387eac457773/transformed/hilt-work-1.2.0/res
+com.amitayk.countdownwidget.app-core-runtime-2.2.0-38 /Users/amitaykatz/.gradle/caches/transforms-3/cbd409dccbcf7bfbafcc2ca33ec06b23/transformed/core-runtime-2.2.0/res
+com.amitayk.countdownwidget.app-ui-util-release-39 /Users/amitaykatz/.gradle/caches/transforms-3/ccc37098ad89a736e037c5b03005c79d/transformed/ui-util-release/res
+com.amitayk.countdownwidget.app-room-ktx-2.5.0-40 /Users/amitaykatz/.gradle/caches/transforms-3/ccfae4cfe99af128801feb37b9f6905e/transformed/room-ktx-2.5.0/res
+com.amitayk.countdownwidget.app-lifecycle-livedata-core-ktx-2.7.0-41 /Users/amitaykatz/.gradle/caches/transforms-3/d86ed05326b27f78ce61d2a2d792d7ef/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.amitayk.countdownwidget.app-lifecycle-livedata-2.7.0-42 /Users/amitaykatz/.gradle/caches/transforms-3/d902f7d249a30f4d81b98fd0630c54c3/transformed/lifecycle-livedata-2.7.0/res
+com.amitayk.countdownwidget.app-ui-tooling-data-release-43 /Users/amitaykatz/.gradle/caches/transforms-3/da3579de6b9f7e8325fde32003865eeb/transformed/ui-tooling-data-release/res
+com.amitayk.countdownwidget.app-appcompat-1.7.0-44 /Users/amitaykatz/.gradle/caches/transforms-3/da52a7d5ea2310248d7727d0e49db1e9/transformed/appcompat-1.7.0/res
+com.amitayk.countdownwidget.app-ui-geometry-release-45 /Users/amitaykatz/.gradle/caches/transforms-3/e3b81d2d4f04313a06c5fad54967fed4/transformed/ui-geometry-release/res
+com.amitayk.countdownwidget.app-ui-release-46 /Users/amitaykatz/.gradle/caches/transforms-3/e7bab9cdc97c7e81cfd303dcd14c0cc0/transformed/ui-release/res
+com.amitayk.countdownwidget.app-material-ripple-release-47 /Users/amitaykatz/.gradle/caches/transforms-3/ef74a219f95e4eeb9d3b09c03c7a1122/transformed/material-ripple-release/res
+com.amitayk.countdownwidget.app-core-ktx-1.13.0-48 /Users/amitaykatz/.gradle/caches/transforms-3/f6677d8f97041e6dac30d428b6b5e680/transformed/core-ktx-1.13.0/res
+com.amitayk.countdownwidget.app-material-release-49 /Users/amitaykatz/.gradle/caches/transforms-3/f887bca6f0be7caa473c685eb3300b3a/transformed/material-release/res
+com.amitayk.countdownwidget.app-emoji2-views-helper-1.3.0-50 /Users/amitaykatz/.gradle/caches/transforms-3/fc9c6829cd7ed570b20c612725d1696f/transformed/emoji2-views-helper-1.3.0/res
+com.amitayk.countdownwidget.app-animation-release-51 /Users/amitaykatz/.gradle/caches/transforms-3/fd6126271227745d86538124519a0356/transformed/animation-release/res
+com.amitayk.countdownwidget.app-ui-graphics-release-52 /Users/amitaykatz/.gradle/caches/transforms-3/fd698aa580d0f58b881c3dc7c1df0cc9/transformed/ui-graphics-release/res
+com.amitayk.countdownwidget.app-work-runtime-2.9.0-53 /Users/amitaykatz/.gradle/caches/transforms-3/ff34cb2feb5240ec0e0095f347351922/transformed/work-runtime-2.9.0/res
+com.amitayk.countdownwidget.app-pngs-54 /Users/amitaykatz/Projects/Countdown Widget/app/build/generated/res/pngs/debug
+com.amitayk.countdownwidget.app-resValues-55 /Users/amitaykatz/Projects/Countdown Widget/app/build/generated/res/resValues/debug
+com.amitayk.countdownwidget.app-packageDebugResources-56 /Users/amitaykatz/Projects/Countdown Widget/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.amitayk.countdownwidget.app-packageDebugResources-57 /Users/amitaykatz/Projects/Countdown Widget/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.amitayk.countdownwidget.app-merged_res-58 /Users/amitaykatz/Projects/Countdown Widget/app/build/intermediates/merged_res/debug
+com.amitayk.countdownwidget.app-debug-59 /Users/amitaykatz/Projects/Countdown Widget/app/src/debug/res
+com.amitayk.countdownwidget.app-main-60 /Users/amitaykatz/Projects/Countdown Widget/app/src/main/res

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="widget_background">#FF1A1A2E</color>
+    <color name="widget_text_primary">#FFFFFFFF</color>
+    <color name="widget_text_secondary">#FFBDBDBD</color>
+    <string name="app_name">Countdown Widget</string>
+    <string name="cancel">Cancel</string>
+    <string name="celebration_description">Celebration — the day has arrived!</string>
+    <string name="config_label_hint">Event name (optional)</string>
+    <string name="config_title">Set Countdown</string>
+    <string name="days_ago">days ago</string>
+    <string name="days_ago_he">ימים עברו</string>
+    <string name="days_left">days left</string>
+    <string name="days_left_he">ימים נותרו</string>
+    <string name="save">Save</string>
+    <string name="widget_description">Counts down days to your special date</string>
+    <style name="Theme.CountdownWidget" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+</resources>

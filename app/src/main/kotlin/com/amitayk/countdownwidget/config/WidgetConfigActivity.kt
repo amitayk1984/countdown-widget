@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -28,6 +29,20 @@ import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
 private val CONFIG_BG = Color(0xFF1C1C1E)
+private val ACCENT    = Color(0xFFBB86FC)
+
+private val appDarkColorScheme = darkColorScheme(
+    primary              = ACCENT,
+    onPrimary            = Color.Black,
+    primaryContainer     = ACCENT,
+    onPrimaryContainer   = Color.Black,
+    surface              = Color(0xFF2C2C2E),
+    onSurface            = Color.White,
+    onSurfaceVariant     = Color.White.copy(alpha = 0.7f),
+    background           = CONFIG_BG,
+    onBackground         = Color.White,
+    outline              = Color.White.copy(alpha = 0.3f),
+)
 
 @AndroidEntryPoint
 class WidgetConfigActivity : ComponentActivity() {
@@ -56,7 +71,7 @@ class WidgetConfigActivity : ComponentActivity() {
         val existingTheme = prefs.getTheme(appWidgetId)
 
         setContent {
-            MaterialTheme {
+            MaterialTheme(colorScheme = appDarkColorScheme) {
                 ConfigScreen(
                     initialDate = existingDate ?: LocalDate.now().plusDays(30),
                     initialLabel = existingLabel,
@@ -121,21 +136,12 @@ private fun ConfigScreen(
             modifier = Modifier.padding(bottom = 20.dp),
         )
 
-        // Event label
+        // Event label — text/border/label colors come from appDarkColorScheme automatically
         OutlinedTextField(
             value = label,
             onValueChange = { label = it },
             label = { Text(stringResource(R.string.config_label_hint)) },
             singleLine = true,
-            colors = OutlinedTextFieldDefaults.colors(
-                focusedTextColor = Color.White,
-                unfocusedTextColor = Color.White,
-                focusedBorderColor = Color(0xFFBB86FC),
-                unfocusedBorderColor = Color.White.copy(alpha = 0.3f),
-                focusedLabelColor = Color(0xFFBB86FC),
-                unfocusedLabelColor = Color.White.copy(alpha = 0.5f),
-                cursorColor = Color(0xFFBB86FC),
-            ),
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(bottom = 24.dp),
@@ -150,25 +156,18 @@ private fun ConfigScreen(
                 .padding(bottom = 24.dp),
         )
 
-        // Date picker
+        // Date picker — inherits dark colors from MaterialTheme; only accent overrides needed
         DatePicker(
             state = datePickerState,
             colors = DatePickerDefaults.colors(
-                containerColor = Color(0xFF2C2C2E),
-                titleContentColor = Color.White,
-                headlineContentColor = Color.White,
-                weekdayContentColor = Color.White.copy(alpha = 0.6f),
-                subheadContentColor = Color.White,
-                navigationContentColor = Color.White,
-                yearContentColor = Color.White,
-                currentYearContentColor = Color(0xFFBB86FC),
-                selectedYearContentColor = Color.White,
-                selectedYearContainerColor = Color(0xFFBB86FC),
-                dayContentColor = Color.White,
-                selectedDayContentColor = Color.White,
-                selectedDayContainerColor = Color(0xFFBB86FC),
-                todayContentColor = Color(0xFFBB86FC),
-                todayDateBorderColor = Color(0xFFBB86FC),
+                containerColor          = Color(0xFF2C2C2E),
+                selectedDayContainerColor  = ACCENT,
+                selectedDayContentColor    = Color.Black,
+                selectedYearContainerColor = ACCENT,
+                selectedYearContentColor   = Color.Black,
+                todayContentColor          = ACCENT,
+                todayDateBorderColor       = ACCENT,
+                currentYearContentColor    = ACCENT,
             ),
             modifier = Modifier.fillMaxWidth(),
         )
@@ -193,7 +192,7 @@ private fun ConfigScreen(
                 },
                 enabled = datePickerState.selectedDateMillis != null,
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFBB86FC),
+                    containerColor = ACCENT,
                     contentColor = Color.Black,
                 ),
             ) {

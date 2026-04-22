@@ -6,7 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import com.amitayk.countdownwidget.data.WidgetPreferences
-import com.amitayk.countdownwidget.worker.WorkScheduler
+import com.amitayk.countdownwidget.worker.AlarmScheduler
 
 class CountdownWidgetProvider : AppWidgetProvider() {
 
@@ -24,11 +24,11 @@ class CountdownWidgetProvider : AppWidgetProvider() {
     }
 
     override fun onEnabled(context: Context) {
-        WorkScheduler.scheduleMidnightUpdate(context)
+        AlarmScheduler.scheduleMidnightUpdate(context)
     }
 
     override fun onDisabled(context: Context) {
-        WorkScheduler.cancel(context)
+        AlarmScheduler.cancel(context)
     }
 
     /** Called when the user resizes the widget — re-render with the new text scale. */
@@ -47,9 +47,13 @@ class CountdownWidgetProvider : AppWidgetProvider() {
         when (intent.action) {
             Intent.ACTION_DATE_CHANGED,
             Intent.ACTION_TIME_CHANGED,
-            Intent.ACTION_TIMEZONE_CHANGED,
+            Intent.ACTION_TIMEZONE_CHANGED -> CountdownWidgetUpdater.updateAllWidgets(context)
             Intent.ACTION_BOOT_COMPLETED,
-            Intent.ACTION_MY_PACKAGE_REPLACED -> CountdownWidgetUpdater.updateAllWidgets(context)
+            Intent.ACTION_MY_PACKAGE_REPLACED -> {
+                // Re-arm the alarm (it is cleared on reboot / reinstall)
+                AlarmScheduler.scheduleMidnightUpdate(context)
+                CountdownWidgetUpdater.updateAllWidgets(context)
+            }
         }
     }
 }

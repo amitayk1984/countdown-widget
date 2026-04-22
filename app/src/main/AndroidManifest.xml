@@ -38,6 +38,11 @@
             </intent-filter>
         </activity>
 
+        <!-- Midnight alarm — re-arms itself nightly via AlarmManager -->
+        <receiver
+            android:name=".worker.MidnightAlarmReceiver"
+            android:exported="false" />
+
         <!-- Disable default WorkManager initializer so we can use HiltWorkerFactory -->
         <provider
             android:name="androidx.startup.InitializationProvider"

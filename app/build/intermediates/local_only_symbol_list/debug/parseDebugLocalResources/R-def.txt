@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color widget_background
+color widget_text_primary
+color widget_text_secondary
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable party_celebration
+drawable widget_background
+id image_bg
+id image_celebration
+id layout_countdown
+id text_days
+id text_days_label
+id text_event_label
+id widget_root
+layout widget_countdown
+mipmap ic_launcher
+string app_name
+string cancel
+string celebration_description
+string config_label_hint
+string config_title
+string days_ago
+string days_left
+string save
+string widget_description
+style Theme.CountdownWidget
+xml countdown_widget_info
