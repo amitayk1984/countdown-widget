@@ -23,11 +23,12 @@ object AlarmScheduler {
             .toInstant()
             .toEpochMilli()
 
+        // USE_EXACT_ALARM (API 33+) and SCHEDULE_EXACT_ALARM (API 31-32) are declared in the
+        // manifest, so canScheduleExactAlarms() should always be true on supported versions.
+        // Fall back to inexact only as a last resort so the chain never silently breaks.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !am.canScheduleExactAlarms()) {
-            // API 31+ without exact-alarm permission — fires within ~1 h window (fine for daily countdown)
             am.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, nextMidnight, pi)
         } else {
-            // API 30, or API 31+ with permission granted — fires exactly at midnight even in Doze
             am.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, nextMidnight, pi)
         }
     }
