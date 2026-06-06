@@ -169,7 +169,12 @@ object CountdownWidgetUpdater {
     // ── Theme ─────────────────────────────────────────────────────────────────
 
     private fun applyTheme(views: RemoteViews, theme: WidgetTheme) {
-        views.setImageViewBitmap(R.id.image_bg, buildBackgroundBitmap(theme))
+        if (theme.backgroundDrawableRes != null) {
+            // Pre-rendered image background (rounded corners already baked into the PNG).
+            views.setImageViewResource(R.id.image_bg, theme.backgroundDrawableRes)
+        } else {
+            views.setImageViewBitmap(R.id.image_bg, buildBackgroundBitmap(theme))
+        }
         views.setTextColor(R.id.text_days,        Color.parseColor(theme.primaryTextColorHex))
         views.setTextColor(R.id.text_event_label, Color.parseColor(theme.secondaryTextColorHex))
         views.setTextColor(R.id.text_days_label,  Color.parseColor(theme.secondaryTextColorHex))
