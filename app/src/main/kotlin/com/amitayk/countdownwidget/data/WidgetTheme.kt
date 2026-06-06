@@ -1,5 +1,8 @@
 package com.amitayk.countdownwidget.data
 
+import androidx.annotation.DrawableRes
+import com.amitayk.countdownwidget.R
+
 data class WidgetTheme(
     val id: String,
     val name: String,
@@ -11,11 +14,30 @@ data class WidgetTheme(
     val gradientStartHex: String? = null,  // top colour
     val gradientEndHex: String? = null,    // bottom colour
     val borderColorHex: String? = null,
+    /** When set, a pre-rendered drawable is used as the background instead of a painted fill. */
+    @DrawableRes val backgroundDrawableRes: Int? = null,
 )
 
 object WidgetThemes {
 
     val all: List<WidgetTheme> = listOf(
+        // ── Hand-drawn rainbow (image backgrounds, dark text) ────────────────
+        WidgetTheme(
+            id = "rainbow_page", name = "🌈 Rainbow",
+            backgroundColorHex = "#F4F0E6",
+            primaryTextColorHex = "#2B2B2B",
+            secondaryTextColorHex = "#A62B2B2B",
+            cornerRadiusDp = 24,
+            backgroundDrawableRes = R.drawable.bg_rainbow_page,
+        ),
+        WidgetTheme(
+            id = "rainbow_pastel", name = "🌈 Rainbow Soft",
+            backgroundColorHex = "#F4F0E6",
+            primaryTextColorHex = "#2B2B2B",
+            secondaryTextColorHex = "#A62B2B2B",
+            cornerRadiusDp = 24,
+            backgroundDrawableRes = R.drawable.bg_rainbow_stroke,
+        ),
         // ── Solid dark ────────────────────────────────────────────────────────
         WidgetTheme(
             id = "navy", name = "Navy",
